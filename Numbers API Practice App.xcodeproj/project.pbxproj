@@ -14,6 +14,8 @@
 		C849F27A1F699D4E00BF43EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C849F2781F699D4E00BF43EA /* LaunchScreen.storyboard */; };
 		C849F2851F699D4E00BF43EA /* Numbers_API_Practice_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C849F2841F699D4E00BF43EA /* Numbers_API_Practice_AppTests.swift */; };
 		C849F2901F699D4E00BF43EA /* Numbers_API_Practice_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C849F28F1F699D4E00BF43EA /* Numbers_API_Practice_AppUITests.swift */; };
+		C849F29F1F699DCE00BF43EA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C849F29E1F699DCE00BF43EA /* SwiftyJSON.swift */; };
+		C8D4E6FB1F7186A7009E72FC /* DetailFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4E6FA1F7186A7009E72FC /* DetailFactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C849F28B1F699D4E00BF43EA /* Numbers API Practice AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Numbers API Practice AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C849F28F1F699D4E00BF43EA /* Numbers_API_Practice_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers_API_Practice_AppUITests.swift; sourceTree = "<group>"; };
 		C849F2911F699D4E00BF43EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C849F29E1F699DCE00BF43EA /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		C8D4E6FA1F7186A7009E72FC /* DetailFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				C849F26F1F699D4D00BF43EA /* AppDelegate.swift */,
 				C849F2711F699D4D00BF43EA /* ViewController.swift */,
+				C8D4E6FA1F7186A7009E72FC /* DetailFactViewController.swift */,
 				C849F2731F699D4D00BF43EA /* Main.storyboard */,
 				C849F2761F699D4D00BF43EA /* Assets.xcassets */,
 				C849F2781F699D4E00BF43EA /* LaunchScreen.storyboard */,
 				C849F27B1F699D4E00BF43EA /* Info.plist */,
+				C849F29E1F699DCE00BF43EA /* SwiftyJSON.swift */,
 			);
 			path = "Numbers API Practice App";
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C849F29F1F699DCE00BF43EA /* SwiftyJSON.swift in Sources */,
+				C8D4E6FB1F7186A7009E72FC /* DetailFactViewController.swift in Sources */,
 				C849F2721F699D4D00BF43EA /* ViewController.swift in Sources */,
 				C849F2701F699D4D00BF43EA /* AppDelegate.swift in Sources */,
 			);
