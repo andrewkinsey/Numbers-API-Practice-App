@@ -21,17 +21,17 @@ class ViewController: UITableViewController
             {
                 [unowned self] in
                 if let url = URL(string: self.query)
-        {
-            if let data = try?Data(contentsOf: url)
-            {
-                let json = try! JSON(data: data)
-                self.parse(json: json)
-                return
-            }
-        }
+                {
+                    if let data = try?Data(contentsOf: url)
+                    {
+                        let json = try! JSON(data: data)
+                        self.parse(json: json)
+                        return
+                    }
+                }
         }
     }
-
+    
     func parse(json: JSON)
     {
         print(json["1"].stringValue)
@@ -41,7 +41,7 @@ class ViewController: UITableViewController
             //print(facts) uncomment for api data pull test
         }
         DispatchQueue.main.async
-        {
+            {
                 [unowned self] in
                 self.tableView.reloadData()
         }
@@ -86,4 +86,3 @@ class ViewController: UITableViewController
         dvc.number = "\(number)"
     }
 }
-
